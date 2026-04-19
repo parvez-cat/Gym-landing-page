@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gym Landing Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif
+    }
+    
+    body {
+      background: #0d0d0d;
+      color: #fff;
+      line-height: 1.6
+    }
+    
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      padding: 70px 8%;
+      background: linear-gradient(135deg, #111, #1f1f1f)
+    }
+    
+    .hero-text {
+      max-width: 540px
+    }
+    
+    .hero h1 {
+      font-size: 52px;
+      line-height: 1.15;
+      margin-bottom: 18px
+    }
+    
+    .hero p {
+      color: #cfcfcf;
+      margin-bottom: 25px;
+      font-size: 18px
+    }
+    
+    .btn {
+      display: inline-block;
+      padding: 14px 28px;
+      background: #fff;
+      color: #000;
+      text-decoration: none;
+      border-radius: 12px;
+      font-weight: 700
+    }
+    
+    .hero img {
+      width: 520px;
+      max-width: 100%;
+      border-radius: 22px
+    }
+    
+    .section {
+      padding: 60px 8%
+    }
+    
+    .cards {
+      display: flex;
+      gap: 22px;
+      flex-wrap: wrap
+    }
+    
+    .card {
+      flex: 1;
+      min-width: 240px;
+      background: #171717;
+      padding: 24px;
+      border-radius: 20px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, .25)
+    }
+    
+    .cta {
+      text-align: center;
+      background: #141414;
+      padding: 70px 8%
+    }
+    
+    @media(max-width:768px) {
+      .hero h1 {
+        font-size: 38px
+      }
+      
+      .hero {
+        gap: 30px
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Push Your Limits, Build Your Strength</h1>
+      <p>Transform your body with expert trainers, premium equipment, and a powerful fitness environment designed to keep you moving.</p>
+      <a href="#" class="btn">Join Now</a>
+    </div>
+    <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1200&auto=format&fit=crop" alt="Gym">
+  </section>
+  <section class="section">
+    <h2 style="margin-bottom:30px">Why Choose Us</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Modern Equipment</h3>
+        <p>Latest machines and free weights for every workout style.</p>
+      </div>
+      <div class="card">
+        <h3>Expert Trainers</h3>
+        <p>Certified professionals to guide your fitness journey.</p>
+      </div>
+      <div class="card">
+        <h3>Flexible Plans</h3>
+        <p>Affordable membership options for students and professionals.</p>
+      </div>
+    </div>
+  </section>
+  <section class="cta">
+    <h2>Start Your Fitness Journey Today</h2>
+    <p style="margin:15px 0;color:#cfcfcf">A bold landing page concept that looks sharp in any portfolio and convinces clients you know what you're doing.</p>
+    <a href="#" class="btn">Get Membership</a>
+  </section>
+</body>
+
+</html>
