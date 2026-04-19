@@ -20,4 +20,9 @@ A sleek and responsive gym landing page built using HTML and CSS. This project i
 
 - Hero Section
 - Why Choose Us (Features Cards)
-- Call-To-Action Section 
+- Call-To-Action Section
+
+## 🌐 Live Demo
+
+👉 https://parvez-cat.github.io/Gym-landing-page/
+
