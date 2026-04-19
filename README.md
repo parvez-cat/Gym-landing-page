@@ -1,2 +1,23 @@
-# Gym-landing-page
-A responsive GYM landing page to showcase my work and my skills and learning based on HTML and CSS.
+# 🏋️ Gym Landing Page
+
+A sleek and responsive gym landing page built using HTML and CSS. This project is designed to showcase a fitness business with a strong visual appeal and clear call-to-action.
+
+## 🚀 Features
+
+- Modern dark-themed UI
+- Fully responsive design
+- Hero section with CTA (Join via WhatsApp)
+- Clean card layout for services
+- Smooth and minimal design structure
+- Easy to customize
+
+## 🛠️ Tech Stack
+
+- HTML5
+- CSS3 (Flexbox + Responsive Design)
+
+## 📸 Sections Included
+
+- Hero Section
+- Why Choose Us (Features Cards)
+- Call-To-Action Section 
